@@ -1,0 +1,47 @@
+body {
+    background-image: url(background.png);
+    font-family: Georgia;
+    background-repeat: repeat-x;
+}
+
+.fb {
+    text-align: center;
+    font-family: comic sans ms;
+    color: darkblue;
+    font-size: 60px;
+}
+
+.h3 {
+    text-align: center;
+}
+
+.ig1 {
+    color: red;
+    text-align: center;
+}
+
+.h4 {
+    text-align: center;
+    font-style: oblique;
+}
+
+.p1 {
+    color: orange;
+    text-align: center;
+}
+
+.p {
+    text-align: right;
+    line-height: 150%;
+}
+
+.mark:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.mark {
+    font-weight: bold;
+}
+

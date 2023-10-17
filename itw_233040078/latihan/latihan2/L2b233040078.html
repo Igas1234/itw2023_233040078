@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table border="1" cellspacing="5" cellpadding="5">
+        <tr>
+            <th style="background-color: grey;" align="center" colspan="6">input data mahasiswa</th>
+        </tr>
+        <tr>
+            <td align="center">username</td>
+            <td>:</td>
+            <td><input type="text" name="username"></td>
+        </tr>
+        <tr>
+            <td align="center">password</td>
+            <td>:</td>
+            <td><input type="text" name="password"></td>
+        </tr>
+        <tr>
+            <td>Fullname</td>
+            <td>:</td>
+            <td><input type="text" name="Fullname"></td>
+        </tr>
+        <tr>
+            <td>E-email</td>
+            <td>:</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Agama</td>
+            <td>:</td>
+            <td>
+                <select>
+                    <option name="Agama" selected=>--pilih agama--</option>
+                    <option value="islam">islam
+                    <option value="kristen">kristen
+                    <option value="buddha">buddha
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>jenis kelamin</td>
+            <td>:</td>
+            <td>
+                <form>
+                    <input type="radio" name="jenis kel" value="pria">pria
+                    <input type="radio" name="jenis kel" value="wanita">wanita
+                </form>
+            </td>
+        <tr>
+            <td>Hobi</td>
+            <td>:</td>
+            <td>
+                <input type="checkbox" name="vehicle" value="musik">musik
+                <input type="checkbox" name="vehicle" value="olahraga">olahraga
+                <input type="checkbox" name="vehicle" value="gaming">gaming
+                <input type="checkbox" name="vehicle" value="lainnya">lainnya
+            </td>
+        </tr>
+        <td>Profil Singkat</td>
+        <td>:</td>
+        <td>
+            <textarea rows="3" cols="50" name="komentar"></textarea>
+        </td>
+        <tr align="right">
+            <td colspan="3"><input type="submit" value="input"></td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

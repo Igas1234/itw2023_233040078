@@ -1,0 +1,30 @@
+body {
+    background-color: aqua;
+    font-family: Georgia;
+}
+
+.fb {
+    text-align: center;
+    font-family: comic sans ms;
+    color: darkblue;
+    font-size: 60px;
+}
+
+.ig1 {
+    color: white;
+}
+
+.h4 {
+    text-align: right;
+    font-style: oblique;
+}
+
+.p1 {
+    color: orange;
+    text-align: center;
+}
+
+.p {
+    text-align: right;
+    line-height: 150%;
+}
