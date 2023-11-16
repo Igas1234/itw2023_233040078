@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pertemuan 7</title>
+    <style>
+        div {
+            width: 150px;
+            height: 150px;
+            margin: 50px auto;
+        }
+
+        .kotak1 {
+            width: 150px;
+            height: 150px;
+            background-color: blue;
+            margin: 50px auto;
+            border-radius: 50% 50% 50% 0;
+            text-align: center;
+        }
+
+        .kotak2 {
+            background-color: darkorange;
+            /* box-shadow: <x-offset> <y-offset> <blur> [size] <color>; */
+            box-shadow: 0 0 0 10px red, 0 0 0 20px greenyellow, 0 0 0 30px purple, 0 0 0 40px lightslategrey;
+            transition-duration: 3s;
+            border-radius: 10px;
+
+        }
+
+        .kotak2:hover {
+            /* box-shadow: <x-offset> <y-offset> <blur> [size] <color>; */
+            box-shadow: 0 0 0 10px red, 0 0 0 20px greenyellow, 0 0 30px red, 0 0 0 30px black;
+            background-image: url(igas.jpg);
+            border-radius: 10%;
+            transform: rotate(76000deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="kotak1">
+        <p>halo saya fabregas</p>
+    </div>
+
+    <div class="kotak2"></div>
+
+</body>
+
+</html>
