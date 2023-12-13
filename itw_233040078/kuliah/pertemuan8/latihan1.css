@@ -1,0 +1,16 @@
+.container {
+    height: 600x;
+    height: 600px;
+    margin: 100px auto;
+    border: 10px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+}
