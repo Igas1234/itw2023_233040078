@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko sepatu</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="hero">
+                <h2 class="heading">Toko sepatu</h2>
+                <p class="sub-heading">sepatu sekolah</p>
+            </div>
+            <div class="features feature-1">
+                <h4 class="price">IDR 100k</h4>
+                <p class="item">sepatu</p>
+            </div>
+            <div class="features feature-2">
+                <h4 class="price">IDR 160k</h4>
+                <p class="item">sepatu</p>
+            </div>
+        </header>
+
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="brand">
+                <h1>toko sepatu</h1>
+            </div>
+            <ul class="menu-list">
+                <li><a href="">Home</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Galery</a></li>
+            </ul>
+        </nav>
+
+
+        <section class="services">
+            <div class="service">
+                <div class="icon ri-inbox-fill"></div>
+                <h3>Tutorial</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ut culpa nam corrupti explicabo
+                    eaque?
+                </p>
+            </div>
+            <div class="service">
+                <div class="icon ri-store-3-line"></div>
+                <h3>Tutorial</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ut culpa nam corrupti explicabo
+                    eaque?
+                </p>
+            </div>
+            <div class="service">
+                <div class="icon ri-home-4-fill"></div>
+                <h3>Tutorial</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ut culpa nam corrupti explicabo
+                    eaque?
+                </p>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <h2>Galery</h2>
+            <img src="http://source.unsplash.com/random/200x200" alt="">
+            <img src="http://source.unsplash.com/random/201x201" alt="">
+            <img src="http://source.unsplash.com/random/203x202" alt="">
+            <img src="http://source.unsplash.com/random/203x203" alt="">
+            <img src="http://source.unsplash.com/random/204x203" alt="">
+        </section>
+
+    </div>
+
+
+
+    <script>
+        const menutoggle = document.querySelector('.menu-toggle input');
+        const nav = document.querySelector('nav ul');
+
+        menutoggle.addEventListener('click', function () { nav.classList.toggle('slide'); });
+    </script>
+</body>
+
+</html>
